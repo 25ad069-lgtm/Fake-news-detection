@@ -1,0 +1,33 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+backend/app/ml/models/
+*.joblib
+*.pkl
+
+# Logs
+*.log
+
+# IDE
+.vscode/
